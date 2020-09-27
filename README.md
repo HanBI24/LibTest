@@ -20,3 +20,9 @@ dependencies {
 	        implementation 'com.github.HanBI24:LibTest:1.0'
 	}
 ```
+
+# Example
+```java
+ToastClass toast = new ToastClass();
+toast.showMyToast(getApplicationContext(), "Input Text");
+```
